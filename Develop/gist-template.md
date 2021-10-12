@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# Regex Tutorial- Matching an Email 
 
-Introductory paragraph (replace this with your text)
+Regular expressions, also known as Regex, are used for defining filters to find certain patterns of characters. Regular expressions has a series of characters that define a pattern of text to be matched to create a more specialized filter, or general one- you choose. You can also find and replace a character or sequence of characters within a string. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This is the Regex code we will be anaylizing: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.
+
 
 ## Table of Contents
 
@@ -23,9 +24,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+The anchors used to contain this regular expression are: ^ to start, and $ to finish.
 
 ### Quantifiers
-
++  is used to communicate there is another sequence to be matched as a greedy quantifier. We also used {2,6} as another greedy quantifer to specify that the input should be a minimum of 2 characrtors to a maximum of 6 characters.
 ### OR Operator
 
 ### Character Classes
