@@ -16,9 +16,6 @@ This is the Regex code we will be anaylizing: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.(
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -39,21 +36,17 @@ Group #2 captures the domain name or e-mail service being used [\da-z\.-].
 Group #3 captures the domain extention (i.e .com or .net) [a-z\.]{2,6}.
 
 ### Bracket Expressions
-There are also 3 bracket expressions. The information in the bracket expressions is contained between an opened and closed brackets[]. This indentifies which information is allowed to be matched.
+The information in the three bracket expressions is contained between an opened and closed brackets[]. This indentifies which information is allowed to be matched.
 
 Bracket Expression #1: [a-z0-9_\.-] - includes case sensitive characters from a-z, numbers from 0-9 an underscore, periods and hyphens.
 
 Bracket Expression #2: [\da-z\.-] - includes all digits, case sensitive characters from a-z, periods and hyphens
 
 Bracket Expression #3: [a-z\.] - includes case sensitive characters from a-z and periods.
+
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+The example stated only used greedy quantifiers + and {}. It will allow the match to expand as long as it neess to go. If these quantifiers were lazy quantifiers, they would appear as +? or {}?, this will direct the system to make the shortest match.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Nerin Kaur & this bootcamp has helped me a lot! 
+Here is my github repository:
