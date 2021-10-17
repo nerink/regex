@@ -45,8 +45,8 @@ Bracket Expression #2: [\da-z\.-] - includes all digits, case sensitive characte
 Bracket Expression #3: [a-z\.] - includes case sensitive characters from a-z and periods.
 
 ### Greedy and Lazy Match
-The example stated only used greedy quantifiers + and {}. It will allow the match to expand as long as it neess to go. If these quantifiers were lazy quantifiers, they would appear as +? or {}?, this will direct the system to make the shortest match.
+The example stated only used greedy quantifiers + and {}. It will allow the match to expand as long as it neess to go. If these quantifiers were lazy quantifiers, they would appear as +? or {}? and will direct the system to make the shortest match.
 
 ## Author
 My name is Nerin Kaur & this bootcamp has helped me a lot! 
-Here is my github repository:
+Here is my github repository:https://github.com/nerink/regex/ 
